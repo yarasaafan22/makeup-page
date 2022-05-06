@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html> 
+<head>
+      <title>  Makeup page </title>
+<link rel="stylesheet" href="styles.css">
+
+<style> 
+#example1 {
+  border: 2px solid red;
+  padding: 10px;
+  border-radius: 25px;
+}
+
+#example2 {
+  border: 2px solid red;
+  padding: 10px;
+  border-radius: 50px 20px;
+}
+
+
+div {
+  border: 1px solid black;
+  background-color: yellow;
+  padding-top: 60px;
+  padding-right: 20px;
+  padding-bottom: 60px;
+  padding-left: 90px;
+}
+div {
+  width: 200px;
+  height: 150px;
+  background-color: yellow;
+  animation-name: makeup;
+  animation-duration: 3s;
+}
+
+@keyframes makeup {
+  from {background-color: yellow;}
+  to {background-color: red;}
+}
+
+
+
+</style>
+
+</head>
+
+<body>
+<h1> makeup </h1>
+<h2> makeup </h2>
+<h6> makeup </h6>
+<img src="pic.JPG"height="500px"weidth="500px"alt="opss!!!">
+<h1> The contents </h1>
+<ol>
+<li> foundation </li>
+<li> lipgloss </li>
+</ol>
+<p id="f1"> I love makeup </p>
+<p id="f2"> I love lipgloss </p>
+
+<p class="f1"> I love makeup </p>
+<p class="f1"> I love lipgloss </p>
+<p id="e1"> I <em> love </em> makeup </p>
+<p id="e2"> I love lipgloss </p>
+<form action="" method="">
+        <label for="makeup"> makeup:</label>
+        <input type="text" name="makeup" placeholder="foundation" required>
+
+</form>
+
+<h1 style="color:red;"> makeup </h1>
+<h2>border-radius: 25px:</h2>
+<div id="example1">
+<p>Types of makeup ,such as foundation,concealer,lipgloss,etc</p>
+</div>
+
+
+
+</body>
+
+
+
+</html>
